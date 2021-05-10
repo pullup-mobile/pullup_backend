@@ -27,3 +27,6 @@ Next, make sure your camera port is turned on for the Raspberry Pi by doing the 
 
 
 After this setup, you will be able to run the pullup_backend.py file
+Run time depends on your hardware but expect about a 60 seconds processing time
+Once complete, the program will display a picture and detail the number of vehicles detected in the frame
+Exit that window, and the database will then reflect that number in our database
