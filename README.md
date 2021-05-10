@@ -26,4 +26,4 @@ Next, make sure your camera port is turned on for the Raspberry Pi by doing the 
 
 
 
-After this setup, you will be able to run the (Will insert name here when I change it).py file
+After this setup, you will be able to run the pullup_backend.py file
