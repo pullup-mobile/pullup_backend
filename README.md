@@ -17,10 +17,11 @@ sudo apt-get install python-picamera
 sudo pip3 install numpy
 sudo pip3 install datetime
 ```
-3. Next, make sure your camera port is turned on for the Raspberry Pi by doing the following:
-  1) In your terminal enter 'sudo raspi-config'
-  2) Navigate to Interfacing Options and select it
-  3) Navigate to Camera and set it to Enable
-  4) Select Finish
+Next, make sure your camera port is turned on for the Raspberry Pi by doing the following:
+4. In your terminal enter 'sudo raspi-config'
+5. Navigate to Interfacing Options and select it
+6. Navigate to Camera and set it to Enable
+7. Select Finish
+
 
 After this setup, you will be able to run the (Will insert name here when I change it).py file
