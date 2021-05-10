@@ -18,6 +18,7 @@ sudo pip3 install numpy
 sudo pip3 install datetime
 ```
 Next, make sure your camera port is turned on for the Raspberry Pi by doing the following:
+
 4. In your terminal enter 'sudo raspi-config'
 5. Navigate to Interfacing Options and select it
 6. Navigate to Camera and set it to Enable
