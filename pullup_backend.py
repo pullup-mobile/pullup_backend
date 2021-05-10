@@ -24,9 +24,10 @@ firebase = pyrebase.initialize_app(config)
 
 db = firebase.database()
 
+#Code will run once for demonstration purposes, If you would like to run continuously comment lines 29 and 122 and replace line 30 with 'while True:'
 
-
-while True:
+count = 0
+while count < 1:
 
     sleep(1)
     camera.capture('/tmp/picture.jpg')
@@ -118,3 +119,4 @@ while True:
     data = {"available_spots": 20 - car_num - motor_num}
     db.child("North_Garage_Floor_1").child("Section_A").set(data)
     print("data added to real time database")
+    count += 1
