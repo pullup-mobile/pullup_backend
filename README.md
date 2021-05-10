@@ -24,4 +24,5 @@ Next, make sure your camera port is turned on for the Raspberry Pi by doing the 
 7. Select Finish
 
 
+
 After this setup, you will be able to run the (Will insert name here when I change it).py file
